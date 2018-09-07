@@ -1,0 +1,6 @@
+1) An int variable has no set size; it can be 16, 32, or 64 bits. When the keyword “const” is added in front of the variable, it cannot be changed once declared. 
+2) A function declaration and a function definition are similar but not the same. A function declaration is the source code for defining a variable. The function definition however is giving that defined variable a value and decides what happens with that function is called
+3) An unsigned integer is one that will always be of positive value. This is useful because not only will a value never be negative but you can also use this to create bigger numbers with less memory by using the sign bit as an extra bit of memory. 
+4) The following C++ code does not have the initial variable ‘sum’ declared. It must be declared, even if 0. Changing line 1 to be “int sum=0;” would fix the problem
+5) The following code has a problem in line 2. One equal sign is used to assign a value to a variable. Two equal signs is used to check the variable if it matches a value and then moves on to complete what is inside the if statement. “if(n==0)” would fix this. 
+6) In order to find how many bytes are used to store datatypes use the operator ‘sizeof()’. Place a variable type like int or short within the parenthesis to determine the size of that particular variable. 
